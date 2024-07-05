@@ -51,8 +51,7 @@ function Hero() {
           delay: 1.35,
         }}
       >
-        I&apos;m a software engineer with expertise in creating top-notch
-        digital experiences. My current focus is on gaining valuable experience and upskilling myself with the latest technology.
+        I&apos;m a software engineer with a passion to learn and grow. My current focus is on gaining valuable experience and upskilling myself with the latest technology.
       </motion.p>
       <motion.div
         className="hero-button"
