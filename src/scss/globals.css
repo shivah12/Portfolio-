@@ -61,9 +61,17 @@ html {
   border: 3px solid var(--background-color);
   border-radius: 10px;
 }
-#fractal-tree {
+
+.fractal-trees-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  background-color:var(--background-color);
+  gap: 20px; /* Optional: Add some space between the trees */
+  
+}
+
+#fractal-tree {
+  width: 400px;
+  height: 400px;
+  background-color: var(--background-color);
 }
