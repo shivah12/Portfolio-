@@ -1,17 +1,19 @@
 import React, { useRef, useEffect } from 'react';
-import p5 from "p5";
 
 interface P5WrapperProps {
-  sketch: (p: p5) => void;
+  sketch: (p: any) => void;
 }
 
 const P5Wrapper: React.FC<P5WrapperProps> = ({ sketch }) => {
   const wrapperRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    let p5Instance: p5 | null = null;
+    let p5Instance: any | null = null;
     if (wrapperRef.current) {
-      p5Instance = new p5(sketch, wrapperRef.current);
+      // Dynamically import p5.js only on the client side
+      import('p5').then((p5Module) => {
+        p5Instance = new p5Module.default(sketch, wrapperRef.current!);
+      });
     }
     return () => {
       if (p5Instance) {
