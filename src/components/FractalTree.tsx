@@ -1,6 +1,11 @@
+// src/components/FractalTree.tsx
 import React from 'react';
-import P5Wrapper from './P5Wrapper';
+import dynamic from 'next/dynamic';
 
+
+const P5Wrapper = dynamic(() => import('./P5Wrapper'), {
+  ssr: false,
+});
 
 let angle: number;
 
