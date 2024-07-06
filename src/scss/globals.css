@@ -61,3 +61,9 @@ html {
   border: 3px solid var(--background-color);
   border-radius: 10px;
 }
+#fractal-tree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:var(--background-color);
+}
