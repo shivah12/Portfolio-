@@ -1,5 +1,5 @@
-import Button from "@/components/Button";
-import Logo from "@/components/Logo";
+import Button from "../components/Button";
+import Logo from "../components/Logo";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { CgClose } from "react-icons/cg";
