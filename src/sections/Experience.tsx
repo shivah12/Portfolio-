@@ -29,7 +29,7 @@ function Experience() {
     {
       name: "EaseMyHood",
       role: "UI/UX Designer",
-      url: "https://digitaldose.in/",
+      url: "/",
       start: "July 2024",
       end: "Present",
       shortDescription: [
