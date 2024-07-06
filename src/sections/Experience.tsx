@@ -17,12 +17,24 @@ function Experience() {
       name: "AppWeave",
       role: "Full Stack Developer Intern",
       url: "https://appweave.tech/",
-      start: "June 2024",
+      start: "July 2024",
       end: "Present",
       shortDescription: [
-        "I had experience working with the development of the main website using Gatsby and TypeScript.",
+        "I have experience working with the development of the main website using Gatsby and TypeScript.",
        
         "I've also worked with a set of team to create user-friendly website designs for clients using Figma.",
+        
+      ],
+    },
+    {
+      name: "EaseMyHood",
+      role: "UI/UX Designer",
+      url: "https://digitaldose.in/",
+      start: "July 2024",
+      end: "Present",
+      shortDescription: [
+        "Designing the MVP web design for a quick commerce startup, creating a visually appealing and user-friendly interface.",
+        "Incorporated design tools like Figma to create and refine the design, ensuring a cohesive and scalable solution.",
         
       ],
     },
@@ -45,8 +57,8 @@ function Experience() {
       start: "May 2024",
       end: "Present",
       shortDescription: [
-        "Represented GeeksforGeeks as the official campus ambassador for Veer Surendra Sai University of Technology, Burla",
-        "Promoted GeeksforGeeks' resources, contests, and events among students and faculty, increasing brand visibility and engagement",
+        "Representing GeeksforGeeks as the official campus ambassador for Veer Surendra Sai University of Technology, Burla",
+        "Promoting GeeksforGeeks' resources, contests, and events among students and faculty, increasing brand visibility and engagement",
         
       ],
     },
