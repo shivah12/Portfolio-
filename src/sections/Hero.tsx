@@ -1,8 +1,12 @@
-import Button from "@/components/Button";
+import Button from "../components/Button";
 import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
+import FractalTree from "../components/FractalTree";
 function Hero() {
+
+
+
   return (
     <div className="hero">
       <motion.h1
@@ -68,6 +72,7 @@ function Hero() {
           link="http://localhost:3000/resume.pdf"
         />
       </motion.div>
+      <FractalTree />
     </div>
   );
 }
