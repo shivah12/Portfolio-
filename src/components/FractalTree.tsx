@@ -1,10 +1,10 @@
 import React from 'react';
-import dynamic from 'next/dynamic';
+import P5Wrapper from './P5Wrapper';
 
 
 let angle: number;
 
-const Sketch = (p5: p5) => {
+const Sketch = (p5: any) => {
   p5.setup = () => {
     p5.createCanvas(400, 400, "transparent");
     angle = p5.PI / 4;
@@ -33,10 +33,6 @@ const Sketch = (p5: p5) => {
     }
   };
 };
-
-const P5Wrapper = dynamic(() => import('./P5Wrapper'), {
-  ssr: false,
-});
 
 const FractalTree: React.FC = () => (
   <div id="fractal-tree">
