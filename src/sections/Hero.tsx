@@ -69,7 +69,7 @@ function Hero() {
       >
         <Button
           text="My Resume"
-          link="http://localhost:3000/resume.pdf"
+          link="https://drive.google.com/file/d/1wZnoulQP4ZrZckM86YjLqCiVIfX8Mci6/view?usp=sharing"
         />
       </motion.div>
       <FractalTree />
