@@ -10,6 +10,7 @@
   --theme-color: #26879b;
 }
 
+
 ::-moz-selection {
   color: white;
   background: var(--theme-color);
@@ -19,6 +20,7 @@
   color: white;
   background: var(--theme-color);
 }
+
 
 html,
 body {
@@ -46,6 +48,7 @@ main {
   box-sizing: border-box;
 }
 
+
 html {
   scrollbar-width: thin;
   scrollbar-color: var(--dark-slate) var(--background-color);
@@ -62,16 +65,25 @@ html {
   border-radius: 10px;
 }
 
+/* Fractal trees container */
 .fractal-trees-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 20px; /* Optional: Add some space between the trees */
-  
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 }
 
 #fractal-tree {
   width: 400px;
   height: 400px;
   background-color: var(--background-color);
+
+  @media (max-width: 768px) {
+    width: 100%; 
+    max-width: 400px; 
+  }
 }
