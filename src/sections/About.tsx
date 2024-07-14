@@ -32,7 +32,7 @@ function About() {
           </p>
 
           <p className="about-grid-info-text">
-            Additionally, I have received the Python nanodegree scholarship sponsored by AWS X Udacity. I am also part of the all women tech community, "Codess.cafe".
+            Additionally, I have received the Python nanodegree scholarship sponsored by AWS X Udacity. I am also part of the all women tech community, "Codess.cafe",offering pro-bono mentorship. I also got accepted as the Software Engineering Fellow, by Headstarter AI  a prestigious program recognizing exceptional talent in AI and software development.
           </p>
           <p className="about-grid-info-text">
             Here are a few technologies I’ve been working with recently:
