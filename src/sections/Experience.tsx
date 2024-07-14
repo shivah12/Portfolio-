@@ -39,6 +39,17 @@ function Experience() {
       ],
     },
     {
+      name: "CMGI",
+      role: "Full Stack Developer Intern",
+      url: "/",
+      start: "May 2024",
+      end: "June 2024",
+      shortDescription: [
+        "Designed and developed a web-based attendance monitoring system using Spring MVC.",
+        "Created a database schema and implemented data models using MySQL.",      
+      ],
+    },
+    {
       name: "Digital Dose",
       role: "UI/UX Designer Intern",
       url: "https://digitaldose.in/",
