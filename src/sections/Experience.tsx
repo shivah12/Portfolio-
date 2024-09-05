@@ -62,6 +62,16 @@ function Experience() {
       ],
     },
     {
+      name: "Google Developer Groups On Campus VSSUT",
+      role: "On Campus Organiser",
+      url: "https://www.linkedin.com/posts/gdsc-vssut-burla_gdsc-gdg-gdgoncampus-activity-7237388272476332032-xAWv?utm_source=share&utm_medium=member_desktop",
+      start: "August 2024",
+      end: "Present",
+      shortDescription: [
+        "Representing GDG On Campus as the official On Campus Organisor formerly known as GDSC Lead for Veer Surendra Sai University of Technology, Burla"
+      ],
+    },
+    {
       name: "GeeksForGeeks",
       role: "Campus Ambassador",
       url: "https://www.geeksforgeeks.org/colleges/veer-surendra-sai-university-of-technology-vssut-sambalpur/",
@@ -75,7 +85,7 @@ function Experience() {
     },
     {
       name: "VSSUT Robotics",
-      role: "Technical Team Member",
+      role: "Core Technical Team Member",
       url: "https://www.linkedin.com/company/vssutrobotics/mycompany/",
       start: "April 2023",
       end: "Present",
