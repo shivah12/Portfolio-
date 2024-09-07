@@ -23,7 +23,7 @@ function About() {
       }}
     >
       <div className="title">
-        <h2>About Me</h2>
+        <h2>/about</h2>
       </div>
       <div className="about-grid">
         <div className="about-grid-info">
