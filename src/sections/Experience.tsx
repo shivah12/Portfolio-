@@ -62,7 +62,7 @@ function Experience() {
       ],
     },
     {
-      name: "Google Developer Groups On Campus VSSUT",
+      name: "GDGC VSSUT",
       role: "On Campus Organiser",
       url: "https://www.linkedin.com/posts/gdsc-vssut-burla_gdsc-gdg-gdgoncampus-activity-7237388272476332032-xAWv?utm_source=share&utm_medium=member_desktop",
       start: "August 2024",
