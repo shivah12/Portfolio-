@@ -18,11 +18,10 @@ function Experience() {
       role: "Full Stack Developer Intern",
       url: "https://appweave.tech/",
       start: "July 2024",
-      end: "Present",
+      end: "September 2024",
       shortDescription: [
-        "I have experience working with the development of the main website using Gatsby and TypeScript.",
-       
-        "I've also worked with a set of team to create user-friendly website designs for clients using Figma.",
+       " Enhanced the company website by developing a fully functional blog section using Gatsby and TypeScript, integrated with DecapCMS for seamless content updates and dynamic blog management.",
+"Developed and optimized core e-commerce features, including contact login, product listing, and product detail pages, while building a robust backend with Medusa.js and TypeScript to support product management, custom attributes, and improved operational efficiency."
         
       ],
     },
