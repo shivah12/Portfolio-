@@ -29,10 +29,10 @@ function Experience() {
       name: "EaseMyHood",
       role: "UI/UX Designer",
       url: "/",
-      start: "July 2024",
-      end: "Present",
+      start: "May 2024",
+      end: "August 2024",
       shortDescription: [
-        "Designing the MVP web design for a quick commerce startup, creating a visually appealing and user-friendly interface.",
+        "Designed the MVP web design for a quick commerce startup, creating a visually appealing and user-friendly interface.",
         "Incorporated design tools like Figma to create and refine the design, ensuring a cohesive and scalable solution.",
         
       ],
