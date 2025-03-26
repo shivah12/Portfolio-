@@ -9,7 +9,7 @@ function Footer() {
         target="_blank"
         className="footer-link"
       >
-        <span className="footer-info">Designed and Built by Shreeti Mohapatra@2024.</span>
+        <span className="footer-info">Designed and Built by Shreeti Mohapatra@2025.</span>
         
       </Link>
     </footer>
