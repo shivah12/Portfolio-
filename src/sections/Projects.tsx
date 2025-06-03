@@ -42,19 +42,17 @@ function Projects() {
     },
     {
       image: "/project3.jpeg",
-      projectName: "MyList",
-      projectLink: "https://my-list-beta.vercel.app/",
-      projectDescription: "This is a ToDoList application built using Next.js, integrated with Clerk for user authentication. It leverages TypeScript for type safety, Tailwind CSS for styling, and Prisma as the ORM for interacting with the database, MongoDB.",
+      projectName: "d12-ui",
+      projectLink: "https://d12-ui.vercel.app/",
+      projectDescription: "A basic typesafe UI Library built by using React, Typescript, TailwindCSS and Storybook.",
       projectTech: [
-        "Next.js",
+        "React Storybook,",
         "Typescript",
-        "Clerk auth",
-        "MongoDB",
-        "Prisma ORM",
+        "Rollup",
       ],
       projectExternalLinks: {
-        github: "https://github.com/shivah12/MyList",
-        externalLink: "https://my-list-beta.vercel.app/",
+        github: "https://github.com/shivah12/d12-ui",
+        externalLink: "https://d12-ui.vercel.app/",
       },
     },
   ];
